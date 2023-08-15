@@ -66,6 +66,14 @@ Fonte: [EDUCBA](https://www.educba.com/versions-of-html/)
 
 ---
 
+## Exemplos de página HTML 1
+
+https://devpractical.com/html-only-websites/
+
+
+
+---
+
 # `<Tags>` (etiquetas/marcações)
 
 ---
