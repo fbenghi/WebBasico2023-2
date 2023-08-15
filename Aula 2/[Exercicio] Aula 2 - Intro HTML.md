@@ -4,13 +4,19 @@ Prof. Felipe Marx Benghi
 
 ## Perguntas teóricas:
 1. Como os navegadores identificam qual versão de HTML será usada no documento?
+   > Instrução na primeira linha.
+   > Para HTML5  `<!DOCTYPE html>`
 1. Como é feito e por que é importante configurar a linguagem/idioma usado no documento HTML?
+   > Pelo atributo LANG - normalmente definido no elemento. Exemplo `<HTML LANG="PT-BR" >` 
 1. Quando aplica-se o elemento `<img>`,  o que o usuário da página web enxerga quando a imagem não é encontrada/exibida pelo navegador?
+   > O texto que é definido pelo atributo ALT
 1. O que acontece quando o elemento HTML não é "fechado" corretamente? Por exemplo:
 `<elemento1> Começo conteúdo 1 <elemento2> conteúdo 2 </elemento2> fim do conteúdo 1 `
+   > O navegador vai tentar exibir a página, mas podem aparecer erros. 
+
 1. O que acontece quando o alinhamento dos elementos HTML não é respeitado?
 Por exemplo:
-`<elemento1> Começo conteúdo 1 <elemento2> conteúdo 2 </elemento2> fim do conteúdo 1 </elemento1>`
+`<elemento1> Começo conteúdo 1 <elemento2> conteúdo 2 </elemento1> fim do conteúdo 1 </elemento1>`
 
 ## Atividade prática:
 Crie uma página de perfil pessoal:
