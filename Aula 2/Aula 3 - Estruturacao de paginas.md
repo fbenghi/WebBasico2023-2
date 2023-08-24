@@ -225,7 +225,7 @@ Se usado FORA de elementos `<section>` e `<article>`, normalmente é uma barra l
 Exemplos:
 - &nbsp - Espaço em branco
 - `&copy;` &copy;
-- `&#8226;` &#8226;
+- `&#8226` (b)
 
 Lista:
 https://websemantics.uk/articles/html-symbols/
