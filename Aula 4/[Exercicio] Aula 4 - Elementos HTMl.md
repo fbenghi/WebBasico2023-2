@@ -39,4 +39,4 @@ Prof. Felipe Marx Benghi
 ## Atividade Prática
 1. Reproduza a seguinte tela de cadastro
 
-![Alt text](image-2.png)
+![Alt text](_img/image-2.png)s
