@@ -11,7 +11,8 @@ style: |
     max-width: 2000px; 
     min-height: 500px; 
     max-height: 2000px; 
-    }
+    };
+    
 
 
 ---
@@ -137,7 +138,7 @@ olá, esta é a <span style="background:red">disciplina</span> de <div style="ba
 * cols: número de colunas
 * readonly: não permite edição
 
-```html
+
 <textarea rows="4" cols="10" readonly>
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
  do eiusmod tempor incididunt ut labore et dolore magna 
@@ -149,7 +150,7 @@ olá, esta é a <span style="background:red">disciplina</span> de <div style="ba
  deserunt mollit anim id est laborum."
  
 </textarea>
-```
+
 
 ---
 ## Negrito `<strong>`
@@ -319,7 +320,10 @@ Crie uma área para que o usuário escreve comentários (`textarea`).
 * name: nome usado para referenciar os dados quando o formulário for submetido
 * id: identificação do elemento
 * type: determina o tipo da caixa de entrada. Por exemplo:
-<label> Seletor de cores <input name="customColor" id="colorPickerId" type="color"/></label> ou <label> <input name="submitName" id="submitId" type="submit" value="Botão"/></label>
+<label> Seletor de cores 
+
+<input name="customColor" id="colorPickerId" type="color"/></label> ou <label> 
+<input name="submitName" id="submitId" type="submit" value="Botão"/></label>
 * value: Determina um valor padrão
 
 ---
@@ -795,7 +799,8 @@ Atributos:
   </thead>
   <tbody>
     <tr> <td>O corpo da tabela</td> <td>Com duas colunas</td> </tr>
-    <tr> <td>E duas</td>  <td >linhas</td>   </tr>
+    <tr> <td>E duas</td>  <td rowspan=2>linhas</td>   </tr>
+    <tr> <td>E três</td>     </tr>
   </tbody>
 </table>
 ```

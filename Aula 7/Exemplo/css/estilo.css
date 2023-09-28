@@ -1,0 +1,22 @@
+/* válido para html*/
+div
+{
+    color: brown;
+}   
+
+/* válido para um identificador "id" */
+#identificador_unico
+{
+    color:goldenrod; 
+}
+
+#identificador_unico
+{
+    color:red; 
+}
+
+
+/*classe*/
+.isto_eh_uma_classe{
+    color: purple;
+}

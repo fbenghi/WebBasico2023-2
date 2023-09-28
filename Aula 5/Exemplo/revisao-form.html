@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+<body>
+
+  <form id="pesquisa">
+  <!-- <form action="/action_page" method="post"> -->
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+      <label for="fname">Nome:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Sobrenome:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="aniversario">Anversário:</label>
+      <input name="aniversario" type="date" id="start" name="trip-start" value="2000-22" min="1970-01-01" max="2018-12-31" />
+    </fieldset>
+    <fieldset>
+      <legend>Acesso</legend> 
+      <label>
+        Email
+        <input name="emailName" id="emailId" type="email"/>
+      </label>
+      <label>
+        Senha
+        <input name="passwordName" id="passwordId" type="password"/>
+      </label>
+      
+      </fieldset>
+      <input type="submit" value="Cadastrar">
+    </form>
+
+
+    <script>
+        const form = document.getElementById("pesquisa")
+        form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        var formData = new FormData(form);
+        // output as an object
+        console.log(Object.fromEntries(formData));
+
+            // ...or iterate through the name-value pairs
+            for (var pair of formData.entries()) {
+                console.log(pair[0] + ": " + pair[1]);
+            }
+        });
+    </script>
+
+
+  </body>
+</html>
