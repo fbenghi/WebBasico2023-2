@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+        .wrapper {
+        max-width: 940px;
+        max-height: 740px;
+        margin: 0 auto;
+        }
+
+        .wrapper > div {
+        border: 2px solid rgb(253 271 88);
+        border-radius: 5px;
+        background-color: rgba(233 171 88 / 0.5);
+        padding: 1em;
+        color: #d9480f;
+        }
+
+        .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 10px;
+        background-color: blue;
+        }
+        .um {
+        grid-column: 1 / 3;
+        grid-row: 1;
+        }
+        .dois {
+        grid-column: 2 / 4;
+        grid-row: 1 / 3;
+        }
+        .tres {
+        grid-column: 1;
+        grid-row: 2 / 5;
+        }
+        .quatro {
+        grid-column: 3;
+        grid-row: 3;
+        }
+        .five {
+        grid-column: 2;
+        grid-row: 4;
+        }
+        .seis {
+        grid-column: 3;
+        grid-row: 4;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="um">1</div>
+        <div class="dois">2</div>
+        <div class="tres">3</div>
+        <div class="quatro">4</div>
+        <div class="five">
+            <!-- <img src="https://s5.static.brasilescola.uol.com.br/be/2023/06/mulheres-da-selecao-brasileira-de-volei-fazem-bloqueio-em-partida.jpg"> -->
+        </div>
+        <div class="seis">6</div>
+      </div>
+      
+    
+</body>
+</html>

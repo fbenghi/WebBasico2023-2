@@ -62,6 +62,16 @@ O que funciona em um dispositivo pode falhar completamente em outro. Testar seu 
 ![Alt text](image-1.png)
 
 ---
+## Pixel  
+
+* Pixel CSS (px) - é uma unidade de comprimento que corresponde aproximadamente a largura ou altura de um ponto único que pode ser confortavelmente visto pelos olhos humanos sem esforço, mas é o menor possível
+Por norma: 1 polegada / 96
+
+* Pixel de dispositivo, que refere-se ao pixel físico real em uma tela.
+
+O número de pixels do dispositivo correspondentes a um único pixel CSS é conhecido como **taxa de pixels do dispositivo**. 
+
+---
 ## Regras CSS para diferente tamanho de telas
 
 ```CSS
@@ -105,6 +115,7 @@ Criar um menu seja:
 ![bg width:600px](image-14.png)
 ![bg width:300px](image-15.png)
 
+
 ---
 # Flexbox
 
@@ -113,7 +124,7 @@ Criar um menu seja:
 * No design responsivo é necessário estabelecer um layout diferente para cada tamanho de tela.
 * É mais fácil ter uma especificação que se adapte automaticamente à largura da tela sem exigir um novo design de layout. Uma forma de conseguir isso é com `diplay:flex`.
 * No modelo de layout flex os filhos podem ser dispostos em linhas ou colunas e tornam-se flexíveis para alterações no tamanho, distribuição e alinhamento
-![Alt text](image-12.png)
+
 
 
 ---
@@ -149,6 +160,10 @@ display: flex;
 ![Alt text](image-7.png)
 
 ---
+![width:600px](image-17.png)
+![width:600px](image-18.png)
+
+---
 # Flexbox - Regras container
 3. Transferência para uma nova linha (wrap)
 
@@ -160,14 +175,14 @@ display: flex;
 
 ---
 # Flexbox - Regras container
-4. Alinhamento
+4. Alinhamento no eixo-secundário
 ```CSS
 align-items: flex-start | flex-end | 
              center | stretch |
              baseline;
 ```
 ![bg right:40% width:500px](image-9.png)
-
+IMPORTANTE: Só funciona em conjunto com o `flex-wrap: nowrap`
 
 ---
 ## Flexbox - Regras Itens
@@ -213,15 +228,21 @@ Pode ser um comprimento (por exemplo, 20%, 5rem, etc.) ou uma palavra-chave.
 
 ```
 ---
-# Exercício
-Crie uma seção com 8 tópicos e controle o posicionamento usando flexbox.
+## Flexbox - Regras Itens
+* Crescimento + Encolhimento + tamanho padrão
 
-![Alt text](image-13.png)
+
+```css
+flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+```
 
 ---
 # Exercício
-Use flexbox para controlar o posicionamento de `aside` e `main` em mobile e  desktop
-![width:800px](image-2.png)
+Crie uma seção com 8 cards e controle o posicionamento usando flexbox.
+
+![width:600px](image-20.png)
+
+
 
 
 ---   
@@ -247,21 +268,65 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 # Display
 
 * flex: um modelo de layout unidimensional que possui layouts flexíveis e eficientes para organizar os itens dentro de um contêiner.
-* grid: ?
+* grid: um modelo de layout bidimensional
 
 ---
 ## Grid
 A propriedade display: grid transforma o elemento pai em um contêiner que possibilita a organização dos elementos filhos de forma bidimensional;
 * No modelo de layout em grade os filhos podem ser dispostos no formato de linhas e colunas.
-* Exemplo: https://developer.mozilla.org/en-US/play
+
 ![Alt text](image-16.png)
 
+---
+## Grid
+Definindo o grip
+
+```css
+display: grid; // Define um grid
+grid-template-columns: repeat(3, 1fr); // repita padrão por 3 colunas e ocupe 1 fr
+grid-template-rows: repeat(4, 1fr); // repita padrão por 4 colunas e ocupe 1 fr
+```
+
+Importante: Fr é uma unidade fracionária e 1fr é para 1 parte do espaço disponível.
+
+---
+## Grid
+Definindo o tamanho das células
+
+```css
+grid-column: 1 / 3; // ocupe a coluna 1 e vá até a coluna 3
+grid-row: 1; // ocupe a linha 1
+```
+
+Importante: pode haver superposição
+---
+## Grid Referências
+
+* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout
+
+
+* https://gridbyexample.com/examples/
 ---
 # Flexbox vs Grid
 
 * Para controlar layout por linha ou por coluna (unidimensional): flexbox. Um caso de uso ideal para o flexbox é quando você tem um conjunto de itens e 
 deseja espaçá-los uniformemente em um contêiner;
 * Para controlar layout por linha e coluna (bidimensional): grid layout. Ao usar grid layout, você cria um layout e então coloca os itens na posição que deseja das células da grade, ou permite que as regras de auto posicionamento coloquem os itens.
+
+
+---
+
+## Exercício:
+1) Crie uma galeria de fotos a seu projeto
+https://www.quackit.com/css/grid/examples/
+![bg right:60% width:500px](image-21.png)
+
+
+---
+# Exercício
+Use flexbox para controlar o posicionamento de `aside` e `main` em mobile e  desktop
+![width:800px](image-2.png)
+
 
 
 
