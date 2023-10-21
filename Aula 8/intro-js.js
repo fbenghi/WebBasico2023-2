@@ -9,19 +9,22 @@
     6. Arrays e funções.
 
     .code runner: ctrl + alt + n  para rodar o código
-                  ctrl + alt + m  para interromper a execuação
+                  ctrl + alt + m  para interromper a execução
 
  ***********************************************************************************/
 
 // Variáveis var, let, const
-var a = 10;
-let b = 5;
+var a;
+let b = "Texto";
 const c = 2;
 
-console.log(a, b, c);
-console.log(typeof(a), typeof(b), typeof(c));
 
-//c = 3; 
+// console.log(a, b, c);
+//console.log(typeof(a), typeof(b), typeof(c));
+
+// c = 3; 
+
+
 /*
 JS é uma linguagem interpretada e C é uma linguagem compilada
 Linguagens Compiladas: 
@@ -35,9 +38,15 @@ Linguagens Compiladas:
 if(true)
 {
     var d = 1;
-    // let d = 1;
+    //let d = 1;
+
+    console.log("dentro das chaves " + d);
 }
-console.log(d);
+
+console.log("fora das chaves " + d);
+
+
+
 
 /*  var	    Declara uma variável global
     let	    Declara uma variável de bloco
@@ -55,8 +64,8 @@ console.log(d);
     Linguagens fracamente tipada não tem as restrições acima.
 */
 
-console.log(a, b, c);
-console.log(typeof(a), typeof(b), typeof(c));
+//console.log(a, b, c);
+//console.log(typeof(a), typeof(b), typeof(c));
 
 
 
@@ -66,56 +75,68 @@ console.log(typeof(a), typeof(b), typeof(c));
 
 a = 3;
 b = 2;
-console.log('A + B: ' + (a + b));
-console.log('A - B: ' + (a - b));
-console.log('A * B: ' + (a * b));
-console.log('A / B: ' + (a / b));
-console.log('A % B: ' + (a % b));
+// console.log('A + B: ' + (a + b));
+// console.log('A - B: ' + (a - b));
+// console.log('A * B: ' + (a * b));
+// console.log('A / B: ' + (a / b));
+// console.log('A % B: ' + (a % b));
 
 
 //console.log(a, typeof(a));
 a = "Texto "
-console.log('A + B: ' + (a + b));
+b = "Texto 2"
+//console.log('A + B: ' + (a + b));
 
+let par_impar = 5;
+//if(par_impar%2 == 0)
+//{
+//  console.log("par_impar é par")
+//}
+//else
+//{
+//  console.log("par_impar é impar")
+//}
 
 
 // operadores de atribuição aritméticos (=, *=, /=, +=, -=):
-a = 5;
-var e = 10;
-e += a;
-console.log('e += a: ' + e);
-e -= a;
-console.log('e -= a: ' + e);
-e *= a;
-console.log('e *= a: ' + e);
-e /= a;
-console.log('e /= a: ' + e);
+//a = 5;
+//var e = 10;
+//e += a;
+//console.log('e += a: ' + e);
+//e -= a;
+//console.log('e -= a: ' + e);
+//e *= a;
+//console.log('e *= a: ' + e);
+//e /= a;
+//console.log('e /= a: ' + e);
 
 // Operadores relacionais (==, !=, <, >, <=, >=) e lógicos (!, &&, ||) e unários (++, --):
 
-console.log('A == B: '+ (a == b));
-console.log('A != B: '+ (a != b));
-console.log('A < B: '+ (a < b));
-console.log('A > B: '+ (a > b));
-console.log('A <= B: '+ (a <= b));
-console.log('A >= B: '+ (a >= b));
+//console.log('A == B: '+ (a == b));
+//console.log('A != B: '+ (a != b));
+//console.log('A < B: '+ (a < b));
+//console.log('A > B: '+ (a > b));
+//console.log('A <= B: '+ (a <= b));
+//console.log('A >= B: '+ (a >= b));
+//
+//// c = false;
+//console.log(!true);
+//console.log('A é igual B e C é verdadeiro: '+ (a == b && c));
+//console.log('A é igual B ou C é verdadeiro: '+ (a == b || !c));
 
-// c = false;
-console.log('A é igual B e C é verdadeiro: '+ (a == b && c));
-console.log('A é igual B ou C é verdadeiro: '+ (a == b || !c));
 
 a = 10;
 b = 10;
-console.log('A é igual B? ' + (a++ == b));
-console.log(a, b);
-console.log('A é igual B? ' + (--a == ++b));
-console.log(a, b);
+//console.log('A é igual B? ' + (a++ == b));
+//console.log(a, b);
+//console.log('A é igual B? ' + (--a == ++b));
+//console.log(a, b);
 
 a = "10";
 b = 10;
-console.log('A é igual B? '+ (a == b));
-console.log(typeof(a), typeof(b));
-console.log('A é igual B? '+ (a === b));
+//console.log('A é igual B? '+ (a == b));
+//console.log(typeof(a), typeof(b));
+//console.log('A é igual B? '+ (a === b));
 
 
 // (VARIÁVEIS) + (OPERADORES) + (ESTRUTURAS)
@@ -123,39 +144,48 @@ console.log('A é igual B? '+ (a === b));
 
 a = 10;
 b = 5;
-if (a == b){
-  console.log('A é igual a B!');
-} else {
-  console.log('A é diferente B!');
-}
+//if (a == b){
+//  console.log('A é igual a B!');
+//} else {
+//  console.log('A é diferente B!');
+//}
 
 // Operador ternario: (condicao) 
-let mensagem = a != b ? "A é diferente B!" : "A é igual a B!"; 
-console.log(mensagem);
+// let mensagem = a != b ? "A é diferente B!" : "A é igual a B!"; 
+// console.log(mensagem);
+// mensagem = a == b ?  "A é igual a B!" : "A é diferente B!"; 
+// console.log(mensagem);
+
+
+let vetor = [1,2,3,4, "texto"];
+
+console.log(vetor[0]);
+console.log(vetor[4]);
+
 
 // Estruturas de repetição while, do/while, for, for/in e for/of,  arrays.
 
 const dias = [2,3,4,5,6];
-switch (dias[0]) {
-  case 2:
-      console.log("Segunda-feira!");
-    break;
-  case 3:
-      console.log("Terça-feira!");
-    break;
-  case 4:
-      console.log("Quarta-feira!");
-    break;    
-  case 5:
-      console.log("Quinta-feira!");
-    break;  
-  case 6:
-      console.log("Sexta-feira!");
-    break;    
-  default:
-      console.log("É final de semana!");
-    break;
-}
+//switch (dias[0]) {
+//  case 2:
+//      console.log("Segunda-feira!");
+//    break;
+//  case 3:
+//      console.log("Terça-feira!");
+//    break;
+//  case 4:
+//      console.log("Quarta-feira!");
+//    break;    
+// case 5:
+//     console.log("Quinta-feira!");
+//   break;  
+// case 6:
+//     console.log("Sexta-feira!");
+//   break;    
+// default:
+//     console.log("É final de semana!");
+//   break;
+//}
 
 const executar = true;
 const nomes = ['João', 'Pedro', 'Paulo', 'Tiago', 'Ana', 'Maria'];
@@ -163,28 +193,32 @@ const nomes = ['João', 'Pedro', 'Paulo', 'Tiago', 'Ana', 'Maria'];
 let contador = 0;
 console.log("\nRepetição utilizando while:")
 while(contador < nomes.length && executar){
-  console.log(nomes[contador]);
+//  console.log(nomes[contador]);
   contador++;
 }
 
 
-contador = 0;
-console.log("\nRepetição utilizando do/while:")
-do {
-  console.log(nomes[contador]);
-  contador++;
-} while(contador < nomes.length && executar);
-
-
-console.log("\nRepetição utilizando for convencional:");
-for(let i = 0; i < nomes.length; i++){
-  console.log(nomes[i]);
-}
+//contador = 0;
+//console.log("\nRepetição utilizando do/while:")
+//do {
+//  console.log(nomes[contador]);
+//  contador++;
+//} while(contador < nomes.length && executar);
+//
+//
+//console.log("\nRepetição utilizando for convencional:");
+//for(let i = 0; i < nomes.length; i++){
+//  console.log(nomes[i]);
+//}
 
 console.log("\nRepetição utilizando for/in:");
 for(i in nomes){
-  console.log(nomes[i]);
+//  console.log(i);
+//  console.log(nomes[i]);
 }
+vetor.push(5)
+//vetor = vetor +5;
+console.log("vetor 1" + (vetor));
 
 console.log("\nRepetição utilizando for/of:");
 for(nome of nomes){
@@ -199,10 +233,17 @@ for(nome of nomes){
 a = 10;
 b = 5;
 function somar(a, b){
+  console.log("somar " + (a + b));
+  subtrair(a, b);
   return a + b;
 }
 function subtrair(a, b){
+  console.log("subtrair " + (a - b));
   return a - b;
 }
-const x = somar(45, 20);
+let x = somar(45, 19);
+somar(45, 20);
+x = somar(45, 21);
+x = somar(45, 22);
+x = somar(45, 23);
 console.log('Valor de X: ' + x);
