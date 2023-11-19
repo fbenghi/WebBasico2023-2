@@ -33,8 +33,6 @@ server.listen(port);
 
 console.debug('Escutando a porta ' + port);
 
-// Carrega o JSON com os cards
-let cards = JSON.parse(fs.readFileSync('cards.json', 'utf8'));
 
 // Configura a chamada GET Contas: que retorna uma lista de cards para o front
 app.get('/contas', function(req, res){
