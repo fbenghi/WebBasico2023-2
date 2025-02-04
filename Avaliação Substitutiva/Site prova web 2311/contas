@@ -1,0 +1,26 @@
+const express = require('express');
+const app = express();
+const port = 3000;
+
+// Dados a serem fornecidos pelo servidor
+const dadosContas = {
+    "contaPF": {
+        "tipo": "Conta Pessoa Física",
+        "descricao": "Conta disponível para qualquer pessoa com CPF",
+        "vantagens": ["Cartão Black", "Planos de milhas"]
+    },
+    "contaPJ": {
+        "tipo": "Conta Pessoa Jurídica",
+        "descricao": "Conta disponível para qualquer pessoa com CNPJ",
+        "vantagens": ["Cartão Black", "Planos de milhas", "Gerente Exclusivo"]
+    }
+};
+
+// Rota para fornecer os dados das contas
+app.get('/contas', (req, res) => {
+    res.json(dadosContas);
+});
+
+app.listen(port, () => {
+    console.log(`Servidor rodando em http://localhost:${port}`);
+});

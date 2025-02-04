@@ -1,0 +1,70 @@
+<form id="CadastroFuncionario" action="/novofuncionario" method="post">
+    <fieldset>
+        <legend>Dados pessoais</legend>
+
+        <label for="name">Nome</label>
+        <input name="name" id="nome" type="text" />
+        
+        <label for="name">Sobrenome</label>
+        <input name="name" id="sobrenome" type="text" />
+        <br>
+        <label for="name">CPF</label>
+        <input name="name" id="cpf" type="text" />
+        <br>
+
+        <label for="datanascimento">Data de Nascimento</label>
+        <input name="datanascimento" id="datanascimento" type="date" />
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Acesso</legend>
+
+        <label for="email">Email</label>
+        <input name="email" id="email" type="email" />
+
+        <label for="email">Confirme o email</label>
+        <input name="email" id="email" type="email" />
+        <br>
+
+        <label for="senha">Senha</label>
+        <input name="senha" id="senha" type="password" />
+    </fieldset>
+
+    <fieldset>
+        <legend>Posição na empresa</legend>
+
+
+        <label for="tratamento">Cargo:</label>
+        <select name="tratamento" id="tratamento">
+            <option value="sr">Estagiário</option>
+            <option value="sra">Analista</option>
+            <option value="sra">Coordenador</option>
+            <option value="sra">Gerente</option>
+            <option value="sra">Diretor</option>
+        </select>
+
+        <br>
+        <br>
+        <label for="tratamento">Setor</label>
+        <br>
+        <input type="radio" id="radioPF" name="fav_conta" value="contaPf">
+        <label for="radioPF">Financeiro</label>
+
+        <input type="radio" id="radioPJ" name="fav_conta" value="contaPJ">
+        <label for="radioPJ">Recursos Humanos</label>
+
+        <input type="radio" id="radioPJ" name="fav_conta" value="contaPJ">
+        <label for="radioPJ">TI</label>
+
+        <input type="radio" id="radioPJ" name="fav_conta" value="contaPJ">
+        <label for="radioPJ">Marketing</label>
+
+        <input type="radio" id="radioPJ" name="fav_conta" value="contaPJ">
+        <label for="radioPJ">Engenharia</label>
+
+
+    </fieldset>
+
+    <button type="submit">Cadastrar</button>
+</form>

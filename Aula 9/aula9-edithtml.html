@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Object Model</title>
+</head>
+<body>
+  
+  <button id="btn">Clique-me</button>
+
+  <div id="minhaDiv" name="minhaDiv">
+    
+    <p id="paragrafo1" name="p1" class="texto">Este é o parágrafo 1.</p> 
+    <p id="paragrafo2" mame="p2" class="texto">Este é o parágrafo 2.</p> 
+    <p id="paragrafo3" name="p3" class="texto">Este parágrafo vai ser substituído.</p> 
+    <p id="paragrafo4" name="p4" class="texto">Este parágrafo vai ser removido.</p>
+  </div> 
+
+  <script>
+    var paragrafo = document.createElement("p"); 
+    var noTxt = document.createTextNode("Novo parágrafo criado com appendChild().");
+    paragrafo.appendChild(noTxt); 
+
+    var elementoPai = document.getElementById("minhaDiv");
+    elementoPai.appendChild(paragrafo);
+  </script>
+  
+  <script>
+    var paragrafo = document.createElement("p"); 
+    var noTxt = document.createTextNode("Novo parágrafo criado com insertBefore().");
+    paragrafo.appendChild(noTxt); 
+    var elementoPai = document.getElementById("minhaDiv");
+
+    var elementoFilho = document.getElementById("paragrafo1");
+    elementoPai.insertBefore(paragrafo, elementoFilho);
+  </script>
+  
+  <script>
+    var paragrafo = document.createElement("p"); 
+    var noTxt = document.createTextNode("O parágrafo 3 foi substituído com replaceChild().");
+    paragrafo.appendChild(noTxt); 
+    var elementoPai = document.getElementById("minhaDiv");
+    var elementoFilho = document.getElementById("paragrafo3");
+    elementoPai.replaceChild(paragrafo, elementoFilho);
+  </script>
+
+  <script>
+    var elementoPai = document.getElementById("minhaDiv"); 
+    var elementoFilho = document.getElementById("paragrafo4");   
+    elementoPai.removeChild(elementoFilho);
+  </script>
+
+  <script src="./aula9-scripts.js"></script>
+</body>
+</html>

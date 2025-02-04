@@ -1,0 +1,130 @@
+<mxfile host="app.diagrams.net" modified="2023-11-19T23:09:59.251Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="YmvtXnFgBCw2_AOQ8wM2" version="22.1.3" type="device">
+  <diagram name="Página-1" id="oCXYcKJbeaWESvTPAk8k">
+    <mxGraphModel dx="6872" dy="2541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-81" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="1267.15" width="198" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-73" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="2167.15" width="350" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-52" value="&lt;h1&gt;O Banco Web Básico&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Vestibulum sodales at ante quis vulputate. Aliquam id neque vel tellus venenatis mollis. Nam porta sapien sit amet pulvinar fringilla. In sed ipsum at ligula malesuada malesuada quis ac urna. Vivamus nec ipsum eu nibh auctor sagittis et laoreet sem. Mauris porttitor lectus sit amet&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-485" y="1277.15" width="360" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-53" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="-502" y="1267.15" width="400" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-56" value="&lt;h1&gt;Nossa História&lt;/h1&gt;&lt;p style=&quot;text-align: justify; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Vivamus nec ipsum eu nibh auctor sagittis et laoreet sem. Mauris porttitor lectus sit amet&lt;/font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-694" y="1277.15" width="180" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-60" value="&lt;p style=&quot;border-color: var(--border-color); text-align: justify; font-size: 14px;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="1432.15" width="130" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="1757.15" width="350" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-62" value="&lt;font style=&quot;font-size: 18px;&quot; color=&quot;#ff0000&quot;&gt;Seção Secundária&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-696" y="1632.15" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-65" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://midias.agazeta.com.br/2023/08/22/banco-instituicao-bancaria-instituicao-financeira-1842161-article.jpg;" vertex="1" parent="1">
+          <mxGeometry x="-485" y="1434.3000000000002" width="180" height="102.85" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-67" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://financasguiada.com.br/wp-content/uploads/2023/02/Instituicao-Financeira.jpg;" vertex="1" parent="1">
+          <mxGeometry x="-694" y="1445.73" width="180" height="102.85" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-68" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Seção Principal&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="1632.15" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-69" value="&lt;h1&gt;O Banco Web Básico&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Vestibulum sodales at ante quis vulputate. Aliquam id neque vel tellus venenatis mollis. Nam porta sapien sit amet pulvinar fringilla. In sed ipsum at ligula malesuada malesuada quis ac urna. Vivamus nec ipsum eu nibh auctor sagittis et laoreet sem. Mauris porttitor lectus sit amet&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;span style=&quot;border-color: var(--border-color); font-size: 14px; text-align: justify; background-color: initial;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-523" y="1767.15" width="333" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-71" value="&lt;h1&gt;Nossa História&lt;/h1&gt;&lt;p style=&quot;text-align: justify; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Vivamus nec ipsum eu nibh auctor sagittis et laoreet sem. Mauris porttitor lectus sit amet&lt;/font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-529" y="2169.8" width="328" height="277.35" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-74" value="&lt;font style=&quot;font-size: 18px;&quot; color=&quot;#ff0000&quot;&gt;Seção Secundária&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-471" y="2437.15" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-75" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://midias.agazeta.com.br/2023/08/22/banco-instituicao-bancaria-instituicao-financeira-1842161-article.jpg;" vertex="1" parent="1">
+          <mxGeometry x="-454" y="2027.15" width="180" height="102.85" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-76" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://financasguiada.com.br/wp-content/uploads/2023/02/Instituicao-Financeira.jpg;" vertex="1" parent="1">
+          <mxGeometry x="-466" y="2287.15" width="180" height="102.85" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-80" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Seção Principal&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-459" y="2117.15" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-88" value="&lt;p style=&quot;border-color: var(--border-color); text-align: justify; font-size: 14px;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-485" y="1527.15" width="345" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-89" value="Imagem 1" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-442.5" y="1470.73" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-90" value="Imagem 2" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-660" y="1470.73" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-91" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="1230" width="198" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-92" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="1032" y="1770" width="350" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-93" value="&lt;h1&gt;O Banco Web Básico&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Vestibulum sodales at ante quis vulputate. Aliquam id neque vel tellus venenatis mollis. Nam porta sapien sit amet pulvinar fringilla. In sed ipsum at ligula malesuada malesuada quis ac urna. Vivamus nec ipsum eu nibh auctor sagittis et laoreet sem. Mauris porttitor lectus sit amet&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="907" y="1240" width="360" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-94" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1230" width="400" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-95" value="&lt;h1&gt;Nossa História&lt;/h1&gt;&lt;p style=&quot;text-align: justify; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Vivamus nec ipsum eu nibh auctor sagittis et laoreet sem. Mauris porttitor lectus sit amet&lt;/font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1296" y="1240" width="180" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-96" value="&lt;p style=&quot;border-color: var(--border-color); text-align: justify; font-size: 14px;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="907" y="1397.15" width="130" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-97" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="1032" y="2100" width="350" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-98" value="&lt;font style=&quot;font-size: 18px;&quot; color=&quot;#ff0000&quot;&gt;Seção Secundária&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1294" y="1595" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-99" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://midias.agazeta.com.br/2023/08/22/banco-instituicao-bancaria-instituicao-financeira-1842161-article.jpg;" vertex="1" parent="1">
+          <mxGeometry x="1067.2" y="1388.5700000000002" width="180" height="102.85" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-100" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://financasguiada.com.br/wp-content/uploads/2023/02/Instituicao-Financeira.jpg;" vertex="1" parent="1">
+          <mxGeometry x="1296" y="1408.58" width="180" height="102.85" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-101" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Seção Principal&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="902" y="1595" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-102" value="&lt;h1&gt;O Banco Web Básico&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Vestibulum sodales at ante quis vulputate. Aliquam id neque vel tellus venenatis mollis. Nam porta sapien sit amet pulvinar fringilla. In sed ipsum at ligula malesuada malesuada quis ac urna. Vivamus nec ipsum eu nibh auctor sagittis et laoreet sem. Mauris porttitor lectus sit amet&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;span style=&quot;border-color: var(--border-color); font-size: 14px; text-align: justify; background-color: initial;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1049" y="2110" width="333" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-103" value="&lt;h1&gt;Nossa História&lt;/h1&gt;&lt;p style=&quot;text-align: justify; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Vivamus nec ipsum eu nibh auctor sagittis et laoreet sem. Mauris porttitor lectus sit amet&lt;/font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1043" y="1772.65" width="328" height="277.35" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-104" value="&lt;font style=&quot;font-size: 18px;&quot; color=&quot;#ff0000&quot;&gt;Seção Secundária&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1101" y="2040" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-105" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://midias.agazeta.com.br/2023/08/22/banco-instituicao-bancaria-instituicao-financeira-1842161-article.jpg;" vertex="1" parent="1">
+          <mxGeometry x="1118" y="2370" width="180" height="102.85" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-106" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://financasguiada.com.br/wp-content/uploads/2023/02/Instituicao-Financeira.jpg;" vertex="1" parent="1">
+          <mxGeometry x="1106" y="1890" width="180" height="102.85" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-107" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Seção Principal&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1113" y="2460" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-110" value="&lt;p style=&quot;border-color: var(--border-color); text-align: justify; font-size: 14px;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="907" y="1490" width="345" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-111" value="Imagem 1" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1109.7" y="1425" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KNZAuquUSoQqZHwEeyf7-112" value="Imagem 2" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1330" y="1433.58" width="95" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

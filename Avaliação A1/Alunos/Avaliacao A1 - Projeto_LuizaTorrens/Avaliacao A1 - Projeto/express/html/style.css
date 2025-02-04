@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana;
+    color: rgb(66, 65, 65);
+}
+main p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.header-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Título da página */
+.header-title {
+    font-family: 'Trebuchet MS';
+    font-size: 20px; /* Tamanho da fonte */
+    color: #626863; /* Cor do texto */
+  
+   
+}
+header {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    height: 70px;
+    top: 0;
+    z-index: 1;
+}
+
+.text-section {
+    margin-top: 120px; /* margem section */
+}
+
+.imagem-texto, .imagem-texto-inicial {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+}
+/* desktop */
+@media all and (min-width:481px){
+
+    header {
+        position: sticky;
+        
+    }
+  
+    main{
+        background-color: white;
+        width: 100%;
+        min-height: 500px;
+        display: flex;
+    }
+    .Primeira{
+        color: rgb(235, 235, 235);
+        width: 75%;
+        background-color: white;
+        padding: 3px;
+    }
+    .Segunda{
+        width: 25%;
+        background-color: white;
+        padding: 3px;
+    }
+
+    .imagem-texto {
+        height: 100px;
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+    .imagem-texto-inicial {
+        height: 300px;
+        width: 350px;
+        display: block;
+        margin: 0 auto;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 481px) {
+    .main {
+      flex-direction: column;
+    }
+  
+    .Primeira {
+      order: 1; 
+      border-bottom: solid;
+    }
+  
+    .Segunda {
+      order: 2; 
+    }
+  
+    .imagem-texto,
+    .imagem-texto-inicial {
+      width: 100%;
+      height: auto;
+    }
+  
+    .text-section {
+      margin-top: 20px;
+    }
+  }
+  

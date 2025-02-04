@@ -16,6 +16,7 @@ Teste();
 function CalcularParOuImpar()
 {
     let numeroParaTeste = document.getElementById("numeroParaTeste").value;
+    
 
     console.log("o número para teste é " + numeroParaTeste);
 

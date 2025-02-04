@@ -1,0 +1,77 @@
+nav {
+    background-color: rgb(2, 2, 2)6f6;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav {
+        background-color: #333;
+        padding: 10px;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    li {
+        display: inline;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    body{
+        background-color: blue;
+    }
+    #quem-somos-content {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        display: flex;
+        background-color: blue;
+
+    }
+    
+    #quem-somos-content h1 {
+        font-size: 24px;
+    }
+    
+    #quem-somos-content p {
+        margin-bottom: 10px;
+    }
+    
+    #quem-somos-content ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    #quem-somos-content li {
+        margin-bottom: 5px;
+    }
+    

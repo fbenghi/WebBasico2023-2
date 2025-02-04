@@ -1,0 +1,41 @@
+<form id="CadastroUsuario" action="/novousuario" method="post">
+    <fieldset>
+        <legend>Dados pessoais</legend>
+
+        <label for="name">Nome</label>
+        <input name="name" id="name" type="text" />
+        <br>
+
+        <label for="email">Email</label>
+        <input name="email" id="email" type="email" />
+
+        <br>
+
+        <label for="datanascimento">Data de Nascimento</label>
+        <input name="datanascimento" id="datanascimento" type="date" />
+    </fieldset>
+
+    <fieldset>
+        <legend>Acesso</legend>
+
+        <label for="login">Usuário</label>
+        <input name="login" id="login" type="text" />
+
+        <label for="senha">Senha</label>
+        <input name="senha" id="senha" type="password" />
+    </fieldset>
+
+    <fieldset>
+        <legend>Tipo de Conta</legend>
+        <input type="radio" id="radioPF" name="fav_conta" value="contaPf">
+        <label for="radioPF">Conta Jurídica</label>
+
+        <input type="radio" id="radioPJ" name="fav_conta" value="contaPJ">
+        <label for="radioPJ">Conta Pessoal</label>
+    </fieldset>
+
+    <input type="checkbox" id="checkTerms" value="Termos" name="termos">
+    <label for="name">Li e aceito <a href="http://www.google.com">termos e condições</a></label><br>
+
+    <button type="submit">Cadastrar</button>
+</form>

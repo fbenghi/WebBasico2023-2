@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Formulário de Reclamação</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="Home.html">Página Inicial</a></li>
+            <li><a href="quemsomos.html">Sobre Nós</a></li>
+            <li><a href="quemsomos.html">Contato</a></li>
+            <li><a href="Cadastro.html">Reclamação</a></li>
+        </ul>
+    </nav>
+
+    <!-- Formulário de Reclamação -->
+    <form action="/novareclamacao" method="post">
+        <label for="pronome">Pronome de tratamento:</label>
+        <select id="pronome" name="pronome">
+            <option value="sr">Sr.</option>
+            <option value="sra">Sra.</option>
+        </select>
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+
+        <label for="dataProblema">Data do Problema:</label>
+        <input type="date" id="dataProblema" name="dataProblema" required>
+
+        <label for="explicacaoProblema">Explicação do Problema:</label>
+        <textarea id="explicacaoProblema" name="explicacaoProblema" rows="4" required></textarea>
+
+        <input type="checkbox" id="termos" name="termos" required>
+        <label for="termos">Aceitar Termos e Condições de Uso</label>
+
+        <a href="http://www.msn.com" target="_blank">Termos e Condições de Uso</a>
+
+        <button type="submit">Enviar Reclamação</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<form id="Reclamacoes" action="/novareclamacao" method="post">
+    <fieldset>
+        <legend>Dados pessoais</legend>
+
+        <label for="tratamento">Como gostaria de ser tratado:</label>
+        <select name="tratamento" id="tratamento">
+        <option value="sr">Sr.</option>
+        <option value="sra">Sra.</option>
+        </select>
+
+        <label for="name">Nome</label>
+        <input name="name" id="name" type="text" />
+        <br>
+        
+                <br><br>
+        <label for="email">Celular</label>
+        <input name="email" id="tel" type="email" />
+
+        
+    </fieldset>
+
+    <fieldset>
+        <legend>Reclamação</legend>
+        <label for="datanascimento">Quando o problema aconteceu</label>
+        <input name="datanascimento" id="datanascimento" type="date" />
+        <br>
+        <label for="descricao">Descreva o seu problema</label><br>
+        <textarea name="descricao" id="descricao" type="descricao" rows="4" cols="50"> </textarea>
+    </fieldset>
+
+    <input type="checkbox" id="checkTerms" value="Termos" name="termos">
+    <label for="name">Li e aceito <a href="http://www.google.com">termos e condições</a></label><br>
+
+    <button type="submit">Enviar Reclamação</button>
+</form>

@@ -1,0 +1,39 @@
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
+const port = 3000;
+
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static('public'));
+
+app.post('/novousuario', (req, res) => {
+    const { nome, email, dataNascimento, usuario, senha, tipoConta, termos } = req.body;
+
+    // Aqui você pode processar os dados do formulário conforme necessário
+    // Por enquanto, apenas os exibimos no console
+    console.log('Novo Usuário:');
+    console.log('Nome:', nome);
+    console.log('Email:', email);
+    console.log('Data de Nascimento:', dataNascimento);
+    console.log('Usuário:', usuario);
+    console.log('Senha:', senha);
+    console.log('Tipo de Conta:', tipoConta);
+    console.log('Aceitou Termos:', termos);
+
+    // Você pode redirecionar o usuário para uma página de confirmação ou qualquer outra página desejada
+    res.send(`
+        <html>
+            <head>
+                <title>Cadastro Confirmado</title>
+            </head>
+            <body>
+                <h1>Cadastro Confirmado!</h1>
+                <p>Obrigado por se cadastrar, ${nome}!</p>
+            </body>
+        </html>
+    `);
+});
+
+app.listen(port, () => {
+    console.log(`Servidor rodando em http://localhost:${port}`);
+});

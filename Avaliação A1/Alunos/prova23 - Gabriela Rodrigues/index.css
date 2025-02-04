@@ -1,0 +1,152 @@
+@media only screen and (min-width: 481px) {
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: black;
+    text-align: center;
+    padding: 19px;
+    text-decoration: none;
+    color: white;
+}
+
+.header-image {
+    width: 100%;
+}
+
+.image-with-text {
+    clear: both;
+}
+
+.right-aligned-image {
+    float: right;
+    max-width: 20%;
+    margin: 0 0 8px 8px;
+}
+
+.left-aligned-image {
+    float: left;
+    max-width: 20%;
+    margin: 0 8px 8px 0;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: black;
+    z-index: 1000;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.main-content {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 19px;
+    background-color: lightgray;
+}
+
+.secondary-content {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+}
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    header, footer {
+        background-color: black;
+        text-align: center;
+        padding: 19px;
+        color: white;
+    }
+    
+    .header-image {
+        width: 100%;
+    
+    }
+    
+    .image-with-text {
+        clear: both;
+    }
+    
+    .right-aligned-image {
+        float: center;
+        max-width: 100%;
+        margin: 0 0 8px 8px;
+    }
+    
+    .left-aligned-image {
+        float: center;
+        max-width: 100%;
+        margin: 0 8px 8px 0;
+    }
+    
+    .menu {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
+        top: 0;
+        background-color: black;
+        z-index: 1000;
+    }
+    
+    .menu li {
+        margin: 10px 0;
+    }
+    
+    .menu li a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-content, .secondary-content {
+        flex: 1;
+        padding: 10px;
+        margin: 10px;
+        width: 100%;
+        background-color: lightgray;
+    }
+}

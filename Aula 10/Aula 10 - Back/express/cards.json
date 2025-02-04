@@ -1,0 +1,22 @@
+{
+    "card1" :
+    {
+        "titulo" : "Título Card 1",
+        "texto" : "Texto Card 1" 
+    },
+    "card2" :
+    {
+        "titulo" : "Título Card 2",
+        "texto" : "Texto Card 2" 
+    },
+    "card3" :
+    {
+        "titulo" : "Título Card 3",
+        "texto" : "Texto Card 3" 
+    },
+    "card4" :
+    {
+        "titulo" : "Título Card 4",
+        "texto" : "Texto Card 4" 
+    }
+}

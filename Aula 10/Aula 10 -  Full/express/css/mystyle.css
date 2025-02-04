@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /* Estilo para o body */
+  body {
+    font-family: Arial;
+    margin: 0;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #94f5e2;
+  }
+
+  /* Header/logo título */
+  .header {
+    padding: 0px;
+    height : 300px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+
+  /* -------------  MENU ---------------- */
+  /* Estilo para o top navigation bar */
+  .horizontal {
+    background-color: #353;
+    width: 100%;
+  }
+
+  /* Limpa os estilos da lista*/
+  .horizontal ul {
+      list-style-type: none;
+      padding-inline-start: 0px;
+      margin-block-start : 0px;
+      margin-block-end : 0px;
+  }
+
+  /* Estilo para os links da barra de navegação  */
+  .horizontal  ul li a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  /* Estilo para o the navigation bar links (hovering) */
+  .horizontal a:hover {
+      color: black;
+  }
+
+  /* Itens da barra de navegação */
+  .mainmenu li 
+  {
+      padding: 20px;
+  }
+
+
+  /* Itens da barra de navegação quando em hover */
+  .mainmenu li:hover {
+    background-color: #83cb94;
+  } 
+
+
+  /* Esconde submenu por padrão */
+  ul.submenu { 
+  display: none; 
+  }
+
+  /*  show the submenu */
+  .submenuTitle:hover ul{
+      background-color: #83cb94;
+      display: block;
+  }
+
+  /*-------------- MAIN CONTENT -----------------*/
+  /* Column container */
+  .content {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .aside {
+    flex: 1 1 120px; 
+    background-color: #f1f1f1;
+    padding: 20px;
+
+    display: none;
+  }
+
+  /* Main column */
+  .main {
+    flex: 3 1 361px;
+    background-color: white;
+    padding: 20px;
+  }
+
+  /* Fake image, just for this example */
+  .fakeimg {
+      background-color: #aaa;
+      width: 95%;
+      padding: 20px;
+      margin: 20px;
+  }
+
+
+  .topics{
+      display: flex;
+      flex-direction: row ;
+      flex-wrap: wrap;  
+  }
+
+  .subtopic{
+      background-color: #aaa;
+      padding: 20px;
+      margin: 20px;
+
+      flex-grow: 1;
+      flex-basis: 250px;
+    
+  }
+
+
+  /* -------- mobile phones ----------------*/
+  @media only screen and (max-width:480px)
+  {
+      nav.horizontal a{
+          font-size: 1.5em;
+          line-height: 2.2em;
+      }
+
+      /* Exibe o main antes do aside*/
+      /* Main column */
+      .main {
+          order:0
+      }
+
+      /* Main column */
+      .aside {
+          order:1
+      }
+
+  }
+
+  /* ---------- tables and desktops ---------*/
+  @media only screen and (min-width:481px) {
+      .horizontal{
+          position: sticky;
+          top: 0px;
+
+      }
+
+      ul.mainmenu > li {
+          display: inline-block;
+          vertical-align: top;
+          width: 20%
+      }
+      
+
+  }

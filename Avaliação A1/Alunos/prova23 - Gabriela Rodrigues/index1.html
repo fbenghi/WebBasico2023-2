@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Informações Pessoais e Reclamações</title>
+</head>
+<body>
+
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="/index.html">Página Inicial</a></li>
+                <li><a href="/sobre">Sobre</a></li>
+                <li><a href="/contato">Contato</a></li>
+                <li><a href="/reclamacao">Reclamação</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form action="/processar-informacoes" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="tratamento">Como gostaria de ser tratado:</label>
+            <select id="tratamento" name="tratamento" required>
+                <option value="sr">Sr.</option>
+                <option value="sra">Sra.</option>
+            </select>
+            <br>
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br>
+
+            <label for="celular">Número de Celular:</label>
+            <input type="tel" id="celular" name="celular" required>
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Reclamações</legend>
+            <label for="dataProblema">Quando o problema aconteceu:</label>
+            <input type="date" id="dataProblema" name="dataProblema" required>
+            <br>
+
+            <label for="descricaoProblema">Descreva o seu problema:</label>
+            <textarea id="descricaoProblema" name="descricaoProblema" rows="4" required></textarea>
+            <br>
+        </fieldset>
+
+        <label>
+            <input type="checkbox" name="aceitoTermos" required>
+            Li e Aceito os <a href="http://www.msn.com">Termos e Condições</a>
+        </label>
+        <br>
+
+        <input type="submit" value="Enviar Reclamações">
+    </form>
+
+</body>
+</html>

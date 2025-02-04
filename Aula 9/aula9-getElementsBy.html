@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Acessando os elementos na DOM</title>
+
+  <style>
+    html { font-family: sans-serif; color: #333; }
+    body { max-width: 500px; margin: 0 auto; padding: 0 15px; }
+    div, article { padding: 10px; margin: 5px; border: 1px solid #dedede; }
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Acessando os elementos na DOM!</h1>
+  
+  <h2>ID (#meuId)</h2>
+  <div id="meuId">
+    Accesso pelo ID - document.getElementById("meuId")
+  </div>
+
+  <p>
+    let el1 = document.getElementById("meuId"); <br>
+    el.innerText = "Errou" <br>
+    el.style.background = "black" <br>
+  </p>
+
+  <h2>Class (.minhaClasse)</h2>
+  <div class="minhaClasse">Accesso pela class (1)</div>
+  <div class="minhaClasse">Accesso pela class (2)</div>
+
+  <p>
+    const el2 = document.getElementsByClassName("minhaClasse");
+    for(el3 of el2) 
+    { <br>
+        el3.style.border = "2px solid black"; <br>
+    }
+  </p>
+
+  <h2>Tag (article)</h2>
+  <article>Accesso pela tag (1)</article>
+  <article>Accesso pela tag (2)</article>
+  <p>
+    const el2 = document.getElementsByTagName("article")
+  </p>
+
+  <h2>QuerySelector (#meuSeletorPorId)</h2>
+  <div id="meuSeletorPorId">Accesso pela query</div>
+  <p>
+    document.querySelectorAll("#meuSeletorPorId")
+  </p>
+
+  <h2>QuerySelectorAll (.meuSeletorPorClasse)</h2>
+  <div class="meuSeletorPorClasse">Accesso por query all (1)</div>
+  <div class="meuSeletorPorClasse">Accesso por query all (2)</div>
+  <p>
+    document.querySelectorAll(".meuSeletorPorClasse")
+  </p>
+</body>
+
+</html>

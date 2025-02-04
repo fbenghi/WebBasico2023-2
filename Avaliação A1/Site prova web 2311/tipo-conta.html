@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Conta</title>
+</head>
+
+<body>
+    <h1>Tipos de Conta</h1>
+    <div id="contasContainer"></div>
+
+    <script>
+        function fetchContas() {
+            fetch('http://localhost:3000/contas')
+                .then(response => response.json())
+                .then(data => {
+                    
+                    displayContas(data);
+                })
+                .catch(error => console.error('Erro ao buscar dados:', error));
+        }
+        function displayContas(contas) {
+            const contasContainer = document.getElementById('contasContainer');
+
+            for (const key in contas) {
+                if (contas.hasOwnProperty(key)) {
+                    const conta = contas[key];
+
+                    const contaDiv = document.createElement('div');
+                    contaDiv.innerHTML = `
+                        <h2>${conta.tipo}</h2>
+                        <p>${conta.descricao}</p>
+                        <p>Vantagens:</p>
+                        <ul>${conta.vantagens.map(vantagem => `<li>${vantagem}</li>`).join('')}</ul>
+                    `;
+
+                    contasContainer.appendChild(contaDiv);
+                }
+            }
+        }
+        fetchContas();
+    </script>
+</body>
+
+</html>
